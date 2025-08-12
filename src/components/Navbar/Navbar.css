@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  width: 100%;
+  height: 48px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  ;
+
+}
+
+.a1 {
+  display: flex;
+  gap: 5px;
+  margin-left: 575px;
+
+}
+
+.a1 h1 {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.a1 a {
+  color: white;
+  font-family: sans-serif;
+}
+
+.language {
+  width: 78px;
+  height: 24px;
+  margin-left: 331px;
+  display: flex;
+  align-items: center;
+}
+
+.language h1 {
+  color: white;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+  width: 100%;
+  height: 73px;
+  border-bottom: 0.5px solid grey;
+}
+
+.nav-bar {
+  width: 1170px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.name h1 {
+  font-size: 24px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.compon {
+  width: 367px;
+  height: 24px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  font-weight: 400;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  list-style: none;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  color: black;
+
+}
+
+.nav-link {
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.inpu input {
+  width: 243px;
+  height: 38px;
+  background-color: #F5F5F5;
+  border: none;
+}
+
+.inpu {
+  position: absolute;
+}
+
+.moo img {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  margin-left: 200px;
+  margin-top: 6px;
+}
+
+.imga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.inp {
+  display: flex;
+  width: 340px;
+  height: 38px;
+  justify-content: space-between;
+  align-items: center;
+}
