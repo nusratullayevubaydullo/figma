@@ -9,6 +9,7 @@ import LogIn from './Pages/LogIn'
 function App() {
   return (
     <div>
+      
       <Navbar />
       <Routes>
         <Route path='/Home' element={<Home />} />
